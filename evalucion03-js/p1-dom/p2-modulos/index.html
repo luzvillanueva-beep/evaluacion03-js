@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaféTec - Módulos ES6+ (Pregunta 2)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    form { margin-bottom: 15px; }
+    input, select, button { padding: 8px; margin-right: 5px; }
+    #mensaje-p2 { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>CaféTec - Módulos y ES6+</h1>
+
+  <form id="form-pedido-p2">
+    <input id="producto-p2" placeholder="Producto" autocomplete="off">
+    <input id="precio-p2" type="number" step="0.10" placeholder="Precio S/">
+    <input id="cantidad-p2" type="number" min="0" placeholder="Cantidad">
+    <button type="submit">Agregar</button>
+  </form>
+
+  <p id="mensaje-p2"></p>
+
+  <ul id="lista-pedidos-p2"></ul>
+  <p id="total-p2"><strong>Total con IGV (18%): S/ 0.00</strong></p>
+
+  <!-- Carga obligatoria como módulo ES -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>

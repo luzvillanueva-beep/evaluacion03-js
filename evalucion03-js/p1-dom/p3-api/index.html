@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClimaTec - Widget del Clima (Pregunta 3)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    .card { border: 1px solid #ccc; padding: 20px; border-radius: 8px; max-width: 400px; }
+    input, button { padding: 8px; margin-top: 5px; }
+    #resultado { margin-top: 15px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>ClimaTec - Widget Clima</h2>
+    <input id="input-ciudad" placeholder="Ej. Cusco, Lima, Arequipa" autocomplete="off">
+    <button id="btn-buscar">Buscar Clima</button>
+    <div id="resultado"></div>
+  </div>
+
+  <!-- Enlace al script -->
+  <script src="app.js"></script>
+</body>
+</html>
